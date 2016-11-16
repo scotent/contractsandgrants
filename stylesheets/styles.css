@@ -8,3 +8,9 @@
     padding:5px;
     z-index: 100;
 }
+.se-claim-col {min-height:300px; position:relative;}
+
+.se-claim-col .form-group {
+    position:absolute;
+    bottom:5px;
+}
