@@ -10,7 +10,7 @@
 }
 .se-claim-col {min-height:300px; position:relative;}
 
-.se-claim-col .form-group {
+.se-claim-col .control {
     position:absolute;
     bottom:5px;
 }
