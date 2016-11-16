@@ -25,10 +25,79 @@
         <p>0131 123 4567 <a href="mailto:test@scotent.co.uk">test@scotent.co.uk</a></p>
     </div>
 
+    <h2>What has changed?</h2>
     <div class="row">
-
+        <div class="col-sm-2">
+            <button class="btn btn-default btn-lg" data-toggle="collapse" href="#collapseDates" aria-expanded="false" aria-controls="collapseDates">Dates</button>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-default btn-lg">Activity</button>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-default btn-lg">Metrics</button>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-default btn-lg">Funding Costs</button>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-default btn-lg">People</button>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-default btn-lg">Trading Status</button>
+        </div>
     </div>
 
+    <div class="collapse" id="collapseDates">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Claim Date</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Reason</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><input type="date" value="01/04/2017"/></td>
+                <td>£4,500</td>
+                <td>Pending</td>
+                <td>
+                    <input type="text" placeholder="Briefly why has this date changed?"/>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="date" value="01/07/2017"/></td>
+                <td>£4,500</td>
+                <td>Pending</td>
+                <td>
+                    <input type="text" placeholder="Briefly why has this date changed?"/>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="date" value="01/10/2017"/></td>
+                <td>£4,500</td>
+                <td>Pending</td>
+                <td>
+                    <input type="text" placeholder="Briefly why has this date changed?"/>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="date" value="01/01/2018"/></td>
+                <td>£4,500</td>
+                <td>Pending</td>
+                <td>
+                    <input type="text" placeholder="Briefly why has this date changed?"/>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <a class="btn btn-info" href="#" role="button">Need Help?</a>
+            <a class="btn btn-default pull-right" href="dashboard.html" role="button">Not Just Now</a>
+            <a class="btn btn-success pull-right" href="dashboard.html" role="button">Confirm Change</a>
+        </div>
+    </div>
 </div>
 
 
