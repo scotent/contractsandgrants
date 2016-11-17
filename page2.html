@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="row">
-                <a class="btn btn-info" href="#" role="button">Need Help?</a>
+                <a class="btn btn-info" href="#" role="button" data-toggle="modal" data-target="#myModal">Need Help?</a>
                 <a class="btn btn-success pull-right" href="page3.html" role="button">Next</a>
             </div>
         </div>
@@ -136,9 +136,37 @@
             </div>
         </div>
     </div>
-
 </div>
 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">How We Can Help You</h4>
+      </div>
+      <div class="modal-body">
+          <p>We're happy to help at any time.  You can give us a call on <strong>0845 607 8787</strong>, or you can 
+              <a href="mailto:help@scotent.co.uk">email us</a></p>
+          <p>Alternatively, let us know when is a good time and we call you:</p>
+          <form>
+                <div class="form-group">
+                    <label for="exampleTemp">Call me in the</label>
+                    <select class="form-control" id="exampleTemp">
+                        <option></option>
+                        <option>Morning</option>
+                        <option>Afternoon</option>
+                        <option>Early Evening</option>
+                    </select>
+                </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
