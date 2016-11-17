@@ -1,6 +1,8 @@
 .se-margin-top { margin-top:10px; }
 .overflow {max-height:300px; overflow-y:scroll;}
 
+body {padding-bottom:20px;}
+
 #se-details {
     position:absolute;
     top:10px;
